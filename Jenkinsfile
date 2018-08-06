@@ -13,7 +13,7 @@ pipeline {
 ls -l
 /opt/maven/bin/mvn clean package 
 
-cp target/hello* /opt/extract/hello.war'''
+cp target/hello*.war /opt/extract/hello.war'''
       }
     }
   }
