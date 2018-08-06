@@ -11,7 +11,7 @@ pipeline {
         sh '''pwd 
 
 ls -l
-/opt/maven/mvn war:war'''
+/opt/maven/bin/mvn war:war'''
       }
     }
   }
