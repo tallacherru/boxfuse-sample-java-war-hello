@@ -11,7 +11,9 @@ pipeline {
         sh '''pwd 
 
 ls -l
-/opt/maven/bin/mvn war:war'''
+/opt/maven/bin/mvn clean package 
+
+cp target/hello* /opt/extract/hello.war'''
       }
     }
   }
