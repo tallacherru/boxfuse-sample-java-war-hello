@@ -30,4 +30,4 @@ steps:
     deployToSlotOrASE: true
     ResourceGroupName: 'appServices-RG'
     SlotName: 'production'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.war'
