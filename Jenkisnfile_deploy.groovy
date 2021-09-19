@@ -4,7 +4,7 @@ pipeline {
 
     agent any
     stages {
-        stage("Download artifacts") {
+        stage("Download war artifacts") {
         steps {
             sh """ hostname 
              ls -l
