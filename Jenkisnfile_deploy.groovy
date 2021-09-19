@@ -6,7 +6,11 @@ pipeline {
     stages {
         stage("Download artifacts") {
         steps {
-            sh """ hostname  """
+            sh """ hostname 
+             ls -l
+             pwd
+
+             """
             }
         }
     }
