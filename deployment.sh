@@ -5,6 +5,7 @@ branch_name = $2
 build_number = $3
 
 echo ${jobname} ${branch_name} ${build_number}
+echo $1 $2 $3
 
 aws s3 ls 
 ls -la
