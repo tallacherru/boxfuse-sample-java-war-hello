@@ -1,4 +1,4 @@
-#1/bin/bash
+#!/bin/bash
 
 jobname = $1
 branch_name = $2
