@@ -4,11 +4,11 @@ pipeline {
 
     agent any
     stages {
-        stage("Download artifacts")
+        stage("Download artifacts") {
         steps {
             sh """ hostname  """
+            }
         }
-
     }
 
 }
