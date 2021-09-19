@@ -1,8 +1,8 @@
 #!/bin/bash
 
-jobname = $1
-branch_name = $2
-build_number = $3
+jobname = "$1"
+branch_name = "$2"
+build_number = "$3"
 
 echo ${jobname} ${branch_name} ${build_number}
 echo $1 $2 $3
