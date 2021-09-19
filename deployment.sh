@@ -3,15 +3,7 @@
 jobname="$1"
 branch_name="$2"
 build_number="$3"
-test=$1
 
-echo ${jobname} ${branch_name} ${build_number}
-echo $1 $2 $3
-echo $jobname
-echo ${branch_name}
-echo "${build_number}"
-echo $test
-echo ${test}
 
 aws s3 ls 
 ls -la
