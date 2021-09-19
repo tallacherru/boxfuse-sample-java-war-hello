@@ -2,8 +2,7 @@
 
 pipeline {
 
-    agent slaver1
-
+    agent { label 'slaver1' }
     stages {
         stage("Checkout git repo") {
 
