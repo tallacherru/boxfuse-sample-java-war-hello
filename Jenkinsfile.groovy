@@ -2,7 +2,7 @@
 
 pipeline {
 
-    agent any
+    agent slaver1
 
     stages {
         stage("Checkout git repo") {
