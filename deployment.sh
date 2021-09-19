@@ -6,7 +6,9 @@ build_number = $3
 
 echo ${jobname} ${branch_name} ${build_number}
 echo $1 $2 $3
-
+echo $jobname
+echo ${branch_name}
+echo "${build_number}"
 aws s3 ls 
 ls -la
 hostname -i
