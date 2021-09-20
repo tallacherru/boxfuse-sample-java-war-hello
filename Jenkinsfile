@@ -1,6 +1,7 @@
 //declarative pipeline
 pipeline {
-    agent any
+    agent { lable 'radius' }
+    
       stages {
           stage("checkout git"){
 
