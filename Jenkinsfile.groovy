@@ -9,6 +9,7 @@ pipeline {
             steps {
                 println "clone git code "
                 git branch: "${BRANCH_NAME}",
+                credentialsId: 'slaveid',
                 url: 'https://github.com/KuruvaSomaSekhar/boxfuse-sample-java-war-hello.git'
 
                 sh "ls -lat"
