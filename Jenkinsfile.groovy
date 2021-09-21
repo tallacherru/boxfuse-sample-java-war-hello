@@ -12,7 +12,7 @@ pipeline {
                 credentialsId: 'slaveid',
                 url: 'https://github.com/KuruvaSomaSekhar/boxfuse-sample-java-war-hello.git'
 
-                sh "ls -lat"
+                //sh "ls -lat"
             }
         }
 
