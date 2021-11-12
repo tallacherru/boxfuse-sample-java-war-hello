@@ -3,7 +3,7 @@
     <title>Boxfuse Sample App: success!</title>
 </head>
 <body style="text-align: center">
-<h1>Congratulations my team!</h1>
+<h1>Congratulations Tomcat1 server!</h1>
 <img src="bike.jpg">
 
 <h2>You have successfully launched your Instance!megastar.com!</h2>
